@@ -1,0 +1,1 @@
+Follow-up meeting: Keep city and membership type filters. Remove open-now filtering from release one because hours data is incomplete. Add CSV export of filtered results for internal staff; this was not in the original request. Profile correction requests should email support. Keep desktop and mobile support. Identify changed and potentially out-of-scope items.

@@ -1,0 +1,24 @@
+{
+	"name": "businesslabs-inbox-agent",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"build": "tsc",
+		"start": "node dist/server.js",
+		"test": "tsx --test src/llm-provider.test.ts"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.21.0",
+		"groq-sdk": "^1.6.0",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.10.0",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	}
+}
